@@ -13,14 +13,11 @@
 #
 # ----------------------------------------------------------------------
 
-__author__ = 'Aymeric Rateau (aymeric.rateau@gmail.com)'
-__copyright__ = 'Copyright (c) 2017 Aymeric Rateau'
-__license__ = 'GPLV3'
-__version__ = "4.2"
+__author__ = "Aymeric Rateau (aymeric.rateau@gmail.com)"
+__copyright__ = "Copyright (c) 2017 Aymeric Rateau"
+__license__ = "GPLV3"
+__version__ = "4.1"
 
 from .mdfreader import Mdf, MdfInfo
 
-__all__ = [
-    'Mdf',
-    'MdfInfo'
-            ]
+__all__ = ["Mdf", "MdfInfo"]
